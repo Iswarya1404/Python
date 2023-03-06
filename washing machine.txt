@@ -1,0 +1,12 @@
+#washing machine
+weight = int(input())
+if weight==0:
+    print("INVALID INPUT")
+if weight>7000:
+    print("OVERLOADED")
+if 1<=weight<=2000:
+    print("Estimated time:25 Minutes")
+if 2001<=weight<=4000:
+    print("Estimated time:35 Minutes")
+if 4001<=weight<=7000:
+    print("Estimated time:45 Minutes")
